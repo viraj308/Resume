@@ -1,0 +1,52 @@
+.about {
+    padding-top: calc(2em + 10vw);
+    color: rgb(87, 86, 86);
+    height: 100vh;
+
+}
+.blue-color {
+    color: #0F4C81;
+}
+.about__heading {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 0.9em;
+}
+.about__subtitle {
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    position: relative;
+    margin-bottom: 1.2em;
+}
+.about__para {
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+.about .container {
+    max-width: 1000px;
+}
+.download__btn {
+    font-size: 1.2em;
+    padding: 0.4em 0.6em;
+    border: 2px solid rgb(87, 86, 86);
+    margin-bottom: 1.5em;
+}
+
+.icon__flex {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+.down__btn {
+    background-color: rgb(245, 244, 244);
+    display: flex;
+    justify-content: center;
+}
+.down__btn:hover, .down__btn:active {
+    background-color: rgb(211, 207, 207);
+}

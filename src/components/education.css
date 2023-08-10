@@ -1,0 +1,50 @@
+h2, h4, h5 {
+    font-family: 'Saira Condensed', sans-serif;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 1.6rem;
+    margin-bottom: 0.1em;
+}
+h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.1em;
+}
+
+.education__heading {
+    font-size: 2.8rem;
+    margin-bottom: 0.2em;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+.degree__text > p, .certification__text, .training__text {
+    margin-left: 2em;
+}
+
+.college__text {
+    text-transform: capitalize;
+    margin-bottom: 0.7em;
+}
+.degree__text {
+    text-transform: capitalize;
+}
+
+.color-blue {
+    color: #0F4C81;
+    font-weight: 500;
+}
+
+.section {
+    margin-bottom: 2.5em;
+}
+
+@media (min-width: 980px) {
+    .education .container {
+        max-width: 640px;
+        width: 100%;
+        margin: 0;
+    }
+}

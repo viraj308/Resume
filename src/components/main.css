@@ -1,0 +1,7 @@
+@media (min-width: 980px) {
+    .main {
+        position: absolute;
+        top: 0px;
+        padding: 0 50px 0 320px;
+    }
+}
