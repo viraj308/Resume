@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="Navbar">
         <div className="container">
           <div className="nav__flex">
-            <a href="#" className="navbar__logo" onClick={closeMobileMenu}>
+            <a href="#about" className="navbar__logo" onClick={closeMobileMenu}>
               VIRU
             </a>
             <div className="profile__img">
@@ -27,22 +27,22 @@ export default function Navbar() {
             </div>
             <ul className={click ? "nav__menu nav__menu--active" : "nav__menu"}>
               <li className="nav__item" onClick={closeMobileMenu}>
-                <a href="#" className="nav__link">
+                <a href="#about" className="nav__link">
                   About
                 </a>
               </li>
               <li className="nav__item" onClick={closeMobileMenu}>
-                <a href="#" className="nav__link">
-                  Experience
-                </a>
-              </li>
-              <li className="nav__item" onClick={closeMobileMenu}>
-                <a href="#" className="nav__link">
+                <a href="#education" className="nav__link">
                   Education
                 </a>
               </li>
               <li className="nav__item" onClick={closeMobileMenu}>
-                <a href="#" className="nav__link">
+                <a href="#skills" className="nav__link">
+                  Skills
+                </a>
+              </li>
+              <li className="nav__item" onClick={closeMobileMenu}>
+                <a href="#interests" className="nav__link">
                   Interests
                 </a>
               </li>

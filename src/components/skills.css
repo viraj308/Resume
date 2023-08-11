@@ -1,0 +1,79 @@
+.skills {
+    padding-top: 4em;
+}
+
+.expertise__chart {
+   height: 500px;
+   width: 600px;
+   position: relative;
+   top: -90px;
+   left: -90px;
+}
+.donut__chart__wrapper {
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+     
+}
+.tools__text {
+    text-transform: capitalize;
+    margin-left: 2em;
+}
+
+.flex__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+   
+}
+
+.lang__and__tools {
+    margin-bottom: 1.8em;
+}
+
+.lang__and__tools > h4 {
+    margin-bottom: 0.8em;
+}
+
+.icons-flex {
+    max-width: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 2em;
+}
+
+.languages .languages__list {
+    margin-left: 2em;
+    list-style-type: none;
+}
+.languages li {
+    text-transform: capitalize;
+    padding-bottom: 0.5em;
+
+}
+.progress__bar {
+    background-color: lightblue;
+    max-width: 670px;
+    margin-top: 0.3em;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.progress {
+    height: 20px;
+    background-color: #0F4C81;
+}
+.english .progress {
+    width: 90%;
+}
+.marathi .progress {
+    width: 80%;
+}
+.hindi .progress {
+    width: 70%;
+}
+.japanese .progress {
+    width: 40%;
+}

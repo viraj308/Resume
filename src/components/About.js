@@ -8,7 +8,7 @@ import "./about.css";
 export default function About() {
   return (
     <>
-      <div className="about">
+      <div id="about" className="about">
         <div className="container">
           <h1 className="about__heading">
             Viraj <span className="blue-color">Chavan</span>

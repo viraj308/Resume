@@ -1,12 +1,12 @@
 .about {
     padding-top: calc(2em + 10vw);
     color: rgb(87, 86, 86);
-    height: 100vh;
-
+    height: 93vh;
 }
 .blue-color {
     color: #0F4C81;
 }
+
 .about__heading {
     font-family: 'Saira Condensed', sans-serif;
     font-size: 5.5rem;
@@ -22,12 +22,12 @@
     margin-bottom: 1.2em;
 }
 .about__para {
-    font-size: 1.1rem;
     line-height: 1.5em;
+    font-size: 1.1rem;
     margin-bottom: 1.5em;
 }
 .about .container {
-    max-width: 1000px;
+    max-width: 840px;
 }
 .download__btn {
     font-size: 1.2em;
@@ -49,4 +49,11 @@
 }
 .down__btn:hover, .down__btn:active {
     background-color: rgb(211, 207, 207);
+}
+
+@media (min-width: 980px) {
+    .about .container {
+        margin-left: 0;
+        margin-right: auto;
+    }
 }

@@ -10,6 +10,36 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Saira+Condensed:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!--google chart-->
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script type="text/javascript">
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Task", "Hours per Day"],
+          ["Programming", 40],
+          ["Project Management", 20],
+          ["Leadership", 15],
+          ["Communication", 15],
+          ["Problem Solving", 7],
+        ]);
+
+        var options = {
+          /* title: "My Expertise", */
+          pieHole: 0.4,
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(
+          document.getElementById("donutchart")
+        );
+        chart.draw(data, options);
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

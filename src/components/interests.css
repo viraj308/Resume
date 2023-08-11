@@ -1,0 +1,21 @@
+.interests {
+    padding: 5em 0;
+    height: 100vh;
+}
+.interests__para {
+    margin-bottom: 2.5em;
+}
+.volunteer__text, .interests__para {
+    margin-left: 2em;
+}
+.volunteer__text h4 {
+    font-size: 1.3rem;
+}
+
+@media (min-width: 980px) {
+    .interests .container {
+        max-width: 700px;
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
